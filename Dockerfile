@@ -4,7 +4,7 @@ WORKDIR /root
 
 RUN apt-get update && apt-get install --no-install-recommends -y \
     ca-certificates curl file \
-    build-essentials \
+    build-essential \
     autoconf automake autotools-dev libtool xutils-dev openssl
 
 RUN curl https://sh.rustup.rs -sSf | \
