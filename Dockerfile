@@ -1,5 +1,5 @@
-#FROM resin/raspberrypi3-debian:stretch 
-FROM resin/intel-nuc-debian:stretch
+FROM resin/raspberrypi3-debian:stretch 
+#FROM resin/intel-nuc-debian:stretch
 WORKDIR /root
 
 RUN apt-get update && apt-get install --no-install-recommends -y \
