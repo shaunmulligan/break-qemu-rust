@@ -16,6 +16,6 @@ RUN mkdir /.cargo
 
 WORKDIR /rust
 COPY . .
-RUN cargo build --vv 
+RUN cargo build -vv 
 
 CMD ["./target/debug/break-qemu-rust"]
